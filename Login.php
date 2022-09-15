@@ -26,7 +26,9 @@
 <?php
 define("usuario", 'AlexP');
 define("uDni", '98765432A');
-echo $_GET['text'];
+if (isset($_GET['text'])){
+  echo $_GET['text'];
+}
 ?>
  </body>
 </html>
